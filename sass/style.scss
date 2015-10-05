@@ -34,20 +34,23 @@
     
     }
 
-    .menu 
+    .menu { 
+        
         ul{
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        li{ 
             font-family: Dorsa-Regular;
             font-size: 1.5em;
             color: #fff;
             text-decoration: none;
-            background-color: black;
+            display: inline;
+            opacity: 1;
         }
-
-        li{ 
-            display:inline;
-        }
-
     }
+}
 
 @media (min-width: 481px) {
     
@@ -61,7 +64,7 @@
         background-size: cover;
     }
 
-    .logo a{
+    .logo a {
         color: #fff;
         font-family: Dorsa-Regular;
         text-decoration: none;
@@ -73,16 +76,19 @@
     }
 
     .menu { 
+
         ul{
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        li{ 
             font-family: Dorsa-Regular;
             font-size: 1.5em;
             color: #fff;
             text-decoration: none;
-            background-color: black;
-        }
-
-        li{ 
-            display:inline;
+            display: inline;
+            opacity: 1;
         }
 
     }

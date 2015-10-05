@@ -14,18 +14,83 @@
 @media (max-width: 480px) {
 
 	body{ 
-		color: #fff;
+		
 	}
 
 	.banner {
-		background-image: url("/projektlayout/images/banner.jpg");
-		background-position: 40% 10%;
-		background-size: cover;
-	}
+            background-image: url("/projektlayout/images/banner.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+
+    .logo a{
+        color: #fff;
+        font-family: Dorsa-Regular;
+        text-decoration: none;
+        font-size: 4em;
+    }
+
+    .social {
+    
+    }
+
+    .menu 
+        ul{
+            font-family: Dorsa-Regular;
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+            background-color: black;
+        }
+
+        li{ 
+            display:inline;
+        }
+
+    }
+
+@media (min-width: 481px) {
+    
+    body{ 
+        
+    }
+
+    .banner {
+        background-image: url("/projektlayout/images/banner.jpg"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logo a{
+        color: #fff;
+        font-family: Dorsa-Regular;
+        text-decoration: none;
+        font-size: 4em;
+    }
+
+    .social {
+    
+    }
+
+    .menu { 
+        ul{
+            font-family: Dorsa-Regular;
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+            background-color: black;
+        }
+
+        li{ 
+            display:inline;
+        }
+
+    }
 }
 
-//END HEADER//
 
+//END HEADER//
+ 
 //FOOTER
 footer > div {
     color: #fff;

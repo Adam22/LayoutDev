@@ -7,3 +7,69 @@
     Created on : 2015-10-05, 16:37:44
     Author     : Tumi
 */
+/*
+    To change this license header, choose License Headers in Project Properties.
+    To change this template file, choose Tools | Templates
+    and open the template in the editor.
+*/
+/* 
+    Created on : 2015-10-05, 17:15:37
+    Author     : Tumi
+*/
+/* line 11, ../sass/_base.scss */
+html, body {
+  font-family: 'OpenSans-Regular';
+  font-size: 100%;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Dorsa-Regular';
+  src: url(../fonts/Dorsa-Regular.ttf) format("truetype");
+}
+/* line 14, ../sass/style.scss */
+footer > div {
+  color: #fff;
+  background-color: #292929;
+}
+
+/* line 19, ../sass/style.scss */
+.footer-wrapper div > h2 {
+  font-family: 'Dorsa-Regular';
+}
+
+/* line 22, ../sass/style.scss */
+.subscribe h2 {
+  font-size: 2.5em;
+}
+
+/* line 25, ../sass/style.scss */
+.contact span {
+  display: block;
+}
+
+/* line 28, ../sass/style.scss */
+.contact h2 {
+  font-size: 3.5em;
+}
+
+/* line 32, ../sass/style.scss */
+.enlarge {
+  font-size: 5em;
+}
+
+/* line 36, ../sass/style.scss */
+.author-panel {
+  background-color: #4d4d4d;
+  text-align: center;
+}
+/* line 39, ../sass/style.scss */
+.author-panel p {
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 0.9em;
+}

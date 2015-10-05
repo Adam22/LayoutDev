@@ -17,7 +17,7 @@
 		color: #fff;
 	}
 
-	.container-fluid {
+	.banner {
 		background-image: url("/projektlayout/images/banner.jpg");
 		background-position: 40% 10%;
 		background-size: cover;
@@ -36,7 +36,8 @@ footer > div {
     font-family: 'Dorsa-Regular';  
 }
 .subscribe h2 {
-    font-size: 2.5em;
+    font-size: 3.5em;
+    font-stretch: expanded;
 }
 .contact span{
     display: block;
@@ -45,8 +46,29 @@ footer > div {
     font-size: 3.5em;
 }
 
+.contact ul li {
+    padding: 10px 0;
+}
+.btn-default{
+    background-color: #FFCC33;
+    border: 0;
+}
+
+.form-control{
+    background-color: #292929;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+        &:focus{
+            border-color: #292929;
+        }
+}
+
 .enlarge {
     font-size: 5em;
+}
+
+.info p {
+    padding: 10px 15px;
 }
 
 .author-panel {

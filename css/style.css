@@ -37,7 +37,7 @@ html, body {
   }
 
   /* line 20, ../sass/style.scss */
-  .container-fluid {
+  .banner {
     background-image: url("/projektlayout/images/banner.jpg");
     background-position: 40% 10%;
     background-size: cover;
@@ -56,30 +56,58 @@ footer > div {
 
 /* line 38, ../sass/style.scss */
 .subscribe h2 {
-  font-size: 2.5em;
+  font-size: 3.5em;
+  font-stretch: expanded;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .contact span {
   display: block;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .contact h2 {
   font-size: 3.5em;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
+.contact ul li {
+  padding: 10px 0;
+}
+
+/* line 52, ../sass/style.scss */
+.btn-default {
+  background-color: #FFCC33;
+  border: 0;
+}
+
+/* line 57, ../sass/style.scss */
+.form-control {
+  background-color: #292929;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+/* line 61, ../sass/style.scss */
+.form-control:focus {
+  border-color: #292929;
+}
+
+/* line 66, ../sass/style.scss */
 .enlarge {
   font-size: 5em;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
+.info p {
+  padding: 10px 15px;
+}
+
+/* line 74, ../sass/style.scss */
 .author-panel {
   background-color: #4d4d4d;
   text-align: center;
 }
-/* line 55, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .author-panel p {
   margin: 0;
   padding-bottom: 15px;

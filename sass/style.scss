@@ -8,6 +8,19 @@
     Author     : Tumi
 */
 
-body{
+//HEADER//
 
+@media (max-width: 480px) {
+
+	body{ 
+		color: #fff;
+	}
+
+	.container-fluid {
+		background-image: url("/projektlayout/images/banner.jpg");
+		background-position: 40% 10%;
+		background-size: cover;
+	}
 }
+
+//END HEADER//

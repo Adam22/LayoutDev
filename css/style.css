@@ -7,3 +7,16 @@
     Created on : 2015-10-05, 16:37:44
     Author     : Tumi
 */
+@media (max-width: 480px) {
+  /* line 15, ../sass/style.scss */
+  body {
+    color: #fff;
+  }
+
+  /* line 19, ../sass/style.scss */
+  .container-fluid {
+    background-image: url("/projektlayout/images/banner.jpg");
+    background-position: 40% 10%;
+    background-size: cover;
+  }
+}
